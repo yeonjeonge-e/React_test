@@ -33,6 +33,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "reactFunction": {
+      "prefix": "rfc",
+      "body": "import React from 'react';\n\nexport default function ${1:${TM_FILENAME_BASE}}() {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n}\n\n",
+      "description": "Creates a React Function component"
+    }
   }
 }
